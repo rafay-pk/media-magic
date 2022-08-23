@@ -2,3 +2,4 @@
 
 A Cross-Platform Media Viewing, Managing, Tagging and Searching Application made in Unity
 
+![as](https://img.shields.io/discord/1011521934409879614)
