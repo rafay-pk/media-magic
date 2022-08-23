@@ -4,4 +4,4 @@
 
 A Cross-Platform Media Viewing, Managing, Tagging and Searching Application made in Unity
 
-## 
+## Repository Statistics                                                                                                                                      
