@@ -1,4 +1,4 @@
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](.github/docs/banner.png)
 
 # Media Magic [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) [![Discord Shield](https://discordapp.com/api/guilds/1011521934409879614/widget.png?style=shield)](https://discord.gg/s2Trxem4XE)
 
