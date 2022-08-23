@@ -9,8 +9,9 @@ A Cross-Platform Media Viewing, Managing, Tagging and Searching Application made
 ![](https://img.shields.io/github/last-commit/rafay-pk/media-magic)
 ![](https://img.shields.io/github/issues/rafay-pk/media-magic)
 ![](https://img.shields.io/github/issues-closed/rafay-pk/media-magic)
-![](https://img.shields.io/github/repo-size/rafay-pk/media-magic)
 ![](https://img.shields.io/github/directory-file-count/rafay-pk/media-magic)
+![](https://img.shields.io/github/repo-size/rafay-pk/media-magic)
+![](https://img.shields.io/github/languages/code-size/rafay-pk/media-magic)
 
 ## Software
 
