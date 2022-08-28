@@ -5,7 +5,6 @@
 A Cross-Platform Media Viewing, Managing, Tagging and Searching Application made in Unity
 
 ![](https://img.shields.io/github/contributors-anon/rafay-pk/media-magic)
-![](https://img.shields.io/github/commit-activity/m/rafay-pk/media-magic)
 ![](https://img.shields.io/github/last-commit/rafay-pk/media-magic)
 ![](https://img.shields.io/github/issues/rafay-pk/media-magic)
 ![](https://img.shields.io/github/issues-closed/rafay-pk/media-magic)
@@ -19,7 +18,7 @@ A Cross-Platform Media Viewing, Managing, Tagging and Searching Application made
 [![](https://img.shields.io/badge/Python-3.4.0-blue?logo=python)](https://www.python.org/downloads/release/python-340/)
 [![](https://img.shields.io/badge/Iron_Python-3.4.0_beta1-silver?logo=github)](https://github.com/IronLanguages/ironpython3/releases/tag/v3.4.0-beta1)
 
-## Setup
+## Development Setup
 
-1. Download Unity, Python and IronPython using above links.
-2. 
+1. Download and Install Unity, Python and IronPython using above links.
+2. Fork and Clone the Project:
