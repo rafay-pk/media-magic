@@ -3,6 +3,7 @@ using System.Linq;
 using Michsky.MUIP;
 using Plugins.Editor;
 using SimpleFileBrowser;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,27 +11,38 @@ namespace Mechanics
 {
     public class StateManager : Singleton<StateManager>
     {
-        [SerializeField] private List<Button> folders, contents;
-        [SerializeField] [ReadOnly] private Button activeFolder, activeContent;
+        [SerializeField] private ThemeConfig theme;
+        // [SerializeField] private List<Button> folders, contents;
+        [SerializeField] [ReadOnly] private Folder activeFolder;
+        // [SerializeField] [ReadOnly] private Content activeContent; 
 
         [SerializeField] private ButtonManager addFolderButton;
 
         private void Awake()
         {
-            addFolderButton.onClick.AddListener(SelectFolder);
+            addFolderButton.onClick.AddListener(BrowseFolder);
         }
 
-        public static void SelectFolder()
+        public static void BrowseFolder()
         {
             FileBrowser.ShowLoadDialog
             (
-                paths =>
-                {
-                    paths.ToList().ForEach(print);
-                    Populator.Instance.Populate(paths.First());
-                }, 
+                paths => Populator.Instance.Populate(paths.First()),
                 null, FileBrowser.PickMode.Folders
             );
+        }
+
+        public void SelectFolder(Folder arg_folder)
+        {
+            TMP_Text _ref;
+            if (activeFolder)
+            {
+                _ref = activeFolder.tmpText;
+                _ref.text = _ref.text.Replace(theme.HlColor, theme.BgColor);
+            }
+            activeFolder = arg_folder;
+            _ref = arg_folder.tmpText;
+            _ref.text = _ref.text.Replace(theme.BgColor, theme.HlColor);
         }
     }
 }
