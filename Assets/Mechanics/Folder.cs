@@ -7,8 +7,8 @@ namespace Mechanics
 {
     public class Folder : MonoBehaviour
     {
-        [ReadOnly] public TMP_Text tmpText;
-        [ReadOnly] [SerializeField] private Button btn;
+        public TMP_Text tmpText;
+        [SerializeField] private Button btn;
 
         public void Initialize(string arg_path)
         {

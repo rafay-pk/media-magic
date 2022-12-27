@@ -13,7 +13,7 @@ namespace Mechanics
     {
         [SerializeField] private ThemeConfig theme;
         // [SerializeField] private List<Button> folders, contents;
-        [SerializeField] [ReadOnly] private Folder activeFolder;
+        [SerializeField] private Folder activeFolder;
         // [SerializeField] [ReadOnly] private Content activeContent; 
 
         [SerializeField] private ButtonManager addFolderButton;
